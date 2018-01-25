@@ -6,7 +6,8 @@ Numerical Simulation of Particle Mechanics and Post-processing Software Developm
 ## 研究背景
 1. 颗粒状是物质的一种基本形态，常见于工业生产和生活中，具有显著的非线性；
 2. 离散元方法（Discrete Element Method, DEM）是一种重要的数值模拟仿真方法，在流体、固体力学和颗粒状物质力学中有着广泛的应用；
-3. 本软件主要基于ApenDem和ApenPost1.0两款软件。离散元软件ApenDem由复旦大学航空航天系航空航天系黄骏副教开发(（http://homepage.fudan.edu.cn/junhuang/)）；后处理程序ApenPost1.0由复旦大学航空航天系姚凯开发（专利登记号：2017SR644335）
+3. 本软件主要基于ApenDem和ApenPost1.0两款软件。离散元软件ApenDem由复旦大学航空航天系航空航天系黄骏副教开发（http://homepage.fudan.edu.cn/junhuang/)
+；后处理程序ApenPost1.0由复旦大学航空航天系姚凯开发（专利登记号：2017SR644335）
 
 ## 代码说明
 - viewer.py建立Viewer类控制并管理整个程序的流程；
