@@ -10,6 +10,7 @@ Numerical Simulation of Particle Mechanics and Post-processing Software Developm
 ；后处理程序ApenPost1.0由复旦大学航空航天系姚凯开发（专利登记号：2017SR644335）
 
 ## 代码说明
+- 用python实现，基于openGL
 - viewer.py建立Viewer类控制并管理整个程序的流程；
 - scene.py建立场景类；
 - 场景下的对象皆为节点，因此需要抽象出所有类型的对象的基类Node类，在node.py中建立；复杂的模型能够从简单的图元通过组合得到，组合后的模型也应该作为一个节点来看待。所以引入组合节点HierarchicalNode类，这是一个包含子节点的的节点，它将子节点存储在child_nodes中，同时作为Node的子类，它也必须实现render_self， 它的render_self函数就是简单地遍历调用子节点的render_self；
